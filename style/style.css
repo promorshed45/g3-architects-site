@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* common css */
+
+.header{
+    padding: 50px 100px;
+    background: rgba(255, 144, 14, 0.10);
+}
+.nav-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+
+/* banner container */
+.banner-container{
+    text-align: center;
+}
+.banner-container img{
+    width: 100%;
+}
+.banner-content{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+.banner-title{
+    font-size: 50px;
+}
+.banner-info{
+    color: #727272;
+    padding: 20px 0px;
+}
+.btn {
+    background-color: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 7px;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 600;
+}
+.btn:hover{
+    border: 1px solid #FF900E;
+    color: #FF900E;
+    background-color: transparent;
+}
+
+/* Our-Features styles */
+.Our-Features{
+    padding: 80px 100px;
+    background-color: #FFF;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+.features-content{
+    width: 50%;
+}
+.features-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+    width: 50%;
+}
+.features-image img{
+    width: 100%;
+}
+.features-title{
+    font-size: 50px;
+}
+.features-info{
+    color: #727272;
+    padding: 20px 0px;
+}
+.normal{
+    font-weight: 500;
+    color: #727272;
+}
+.features-color{
+    color: #FF900E;
+}
+/* Experience section styles */
+.Experience{
+    display: flex;
+    padding: 80px 100px;
+    gap: 50px;
+}
+.experience-content{
+    width: 50%;
+}
+.experience-img{
+    width: 50%;
+    position: relative;
+}
+.experience-img img{
+    width: 100%;
+}
+.tenyearexperience{
+    position: absolute;
+    background-color: #FF900E;
+    padding: 30px 70px;
+    color: white;
+    bottom: -50px ;
+    left: -50px;
+    border-radius: 10px;
+}
