@@ -1,0 +1,203 @@
+@media only screen and (max-width: 576px) {
+    
+    .header{
+        padding:30px;
+    }
+    .nav-title{
+        margin-bottom: 10px;
+    }
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu{
+        justify-content: space-between;
+    }
+    nav ul{
+        gap: 10px;
+    }
+   
+
+/* banner container */
+
+.banner-content{
+    width: 100%;
+}
+.banner-title{
+    font-size: 35px;
+}
+
+
+/* Our-Features styles */
+.Our-Features{
+    padding:30px;
+    flex-direction: column;
+}
+.features-content{
+    text-align: center;
+    width: 100%;
+}
+.features-image{
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+.features-title{
+    font-size: 35px;
+}
+
+
+/* Experience section styles */
+.Experience{
+    flex-direction: column;
+    padding: 30px;
+}
+.experience-content{
+    width: 100%;
+}
+.experience-img{
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.experience-img img{
+    width: 100%;
+}
+.tenyearexperience{
+    padding: 20px 50px;
+    bottom: -40px ;
+    left: 30px;
+}
+
+
+/* card-container */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px;
+}
+.card-box{
+    padding: 40px;
+}
+.some-facts {
+    padding: 30px;
+}
+
+
+/* sponspors container */
+.sponspors-container{
+    padding: 30px;
+}
+.sponspors-container h1{
+    font-size: 40px;
+}
+
+.sponspors-logo{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+}
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    
+    .header{
+        padding:30px 40px;
+    }
+    nav ul{
+        gap: 15px;
+    }
+   
+
+/* banner container */
+
+.banner-content{
+    width: 100%;
+}
+.banner-title{
+    font-size: 45px;
+}
+
+
+/* Our-Features styles */
+.Our-Features{
+    padding:30px;
+    flex-direction: column;
+}
+.features-content{
+    text-align: center;
+    width: 100%;
+}
+.features-image{
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+
+/* Experience section styles */
+.Experience{
+    flex-direction: column;
+    padding: 50px;
+}
+.experience-content{
+    width: 100%;
+}
+.skillscart-container{
+    display: grid;
+    gap: 0px 40px;
+    grid-template-columns: 1fr 1fr;
+}
+.experience-img{
+    text-align: center;
+    width: 70%;
+    position: relative;
+}
+.experience-img img{
+    width: 100%;
+}
+
+
+
+/* card-container */
+.card-container{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 30px 50px;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+.card-box{
+    padding: 40px;
+}
+.some-facts {
+    padding: 30px;
+}
+
+
+/* sponspors container */
+.sponspors-container{
+    padding: 30px;
+}
+.sponspors-container h1{
+    font-size: 40px;
+}
+
+.sponspors-logo{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+}
+
+
+
+
+
+
+
